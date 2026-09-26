@@ -112,7 +112,7 @@ st.title("West Africa Labour-Market Decision-Support Framework")
 st.caption("Explainable and Robust Machine Learning for Labour-Market Resilience and Unemployment Vulnerability Prediction")
 
 st.markdown("**PhD Research by: Cynthia Ifunanya Udoaku.**")
-st.markdown("**Framework designed by: Nnaemeka U. Ezeonyi, PhD.**")
+st.markdown("Designed by: Nnaemeka U. Ezeonyi, PhD.")
 
 
 st.sidebar.header("Data")
