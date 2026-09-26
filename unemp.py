@@ -111,10 +111,10 @@ def load_uploaded(emp_bytes,unemp_bytes):
 st.title("West Africa Labour-Market Decision-Support Framework")
 st.caption("Explainable and Robust Machine Learning for Labour-Market Resilience and Unemployment Vulnerability Prediction")
 
-st.markdown("---")
+
 st.markdown("**PhD Research by: Cynthia Ifunanya Udoaku.**")
 st.markdown("Designed by: Nnaemeka U. Ezeonyi, PhD.")
-
+st.markdown("---")
 
 st.sidebar.header("Data")
 ue = st.sidebar.file_uploader("Upload employment CSV",type=["csv"])
