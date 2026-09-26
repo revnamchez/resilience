@@ -250,5 +250,6 @@ with tab4:
         st.warning(f"Permutation importance unavailable: {e}")
 
 st.divider()
-st.markdown("**System designed by: Nnaemeka.**")
+st.markdown("**PhD Research by: Cynthia Ifunanya Udoaku.**")
+st.markdown("**Framework designed by: Nnaemeka U. Ezeonyi, PhD.**")
 st.caption("PhD research prototype. Decision-support only; human judgement remains important.")
