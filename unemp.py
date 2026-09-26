@@ -108,8 +108,12 @@ def load_uploaded(emp_bytes,unemp_bytes):
     return prepare_data(BytesIO(emp_bytes),BytesIO(unemp_bytes))
 
 # ----------------------- LOAD DATA -----------------------
-st.title("West Africa Labour-Market Decision-Support System")
+st.title("West Africa Labour-Market Decision-Support Framework")
 st.caption("Explainable and Robust Machine Learning for Labour-Market Resilience and Unemployment Vulnerability Prediction")
+
+st.markdown("**PhD Research by: Cynthia Ifunanya Udoaku.**")
+st.markdown("**Framework designed by: Nnaemeka U. Ezeonyi, PhD.**")
+
 
 st.sidebar.header("Data")
 ue = st.sidebar.file_uploader("Upload employment CSV",type=["csv"])
@@ -250,6 +254,4 @@ with tab4:
         st.warning(f"Permutation importance unavailable: {e}")
 
 st.divider()
-st.markdown("**PhD Research by: Cynthia Ifunanya Udoaku.**")
-st.markdown("**Framework designed by: Nnaemeka U. Ezeonyi, PhD.**")
 st.caption("PhD research prototype. Decision-support only; human judgement remains important.")
